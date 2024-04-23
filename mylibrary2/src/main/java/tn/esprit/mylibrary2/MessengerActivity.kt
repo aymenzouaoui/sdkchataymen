@@ -1,4 +1,4 @@
-package tn.esprit.androidapplicationtest
+package tn.esprit.mylibrary2
 
 import ChatAdapter
 import android.app.Activity
