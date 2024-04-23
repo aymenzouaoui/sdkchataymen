@@ -66,3 +66,20 @@ dependencies {
     implementation("com.github.bumptech.glide:glide:4.12.0")
     annotationProcessor("com.github.bumptech.glide:compiler:4.12.0")
 }
+publishing {
+    publications {
+        // Define a publication named 'mySdk'
+        create<MavenPublication>("mySdk") {
+            // Configure the coordinates of your published artifact
+            groupId = "com.example" // Replace with your group ID
+            artifactId = "mysdk" // Replace with your artifact ID
+            version = "1.0.0" // Replace with your version
+
+
+
+
+        }
+    }
+
+
+}
