@@ -3,6 +3,7 @@ pluginManagement {
         google()
         mavenCentral()
         gradlePluginPortal()
+        maven { url = uri("https://jitpack.io") }
     }
 }
 dependencyResolutionManagement {
@@ -16,5 +17,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidApplicationTest"
 include(":app")
-include(":lib")
-include(":mylibrary2")
+include(":mysdk")
