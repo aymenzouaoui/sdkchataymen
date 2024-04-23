@@ -1,6 +1,6 @@
 package tn.esprit.androidapplicationtest
 
-import ChatAdapter
+import tn.esprit.sdktest.ChatAdapter
 import android.app.Activity
 import android.content.Intent
 import android.net.Uri
@@ -296,7 +296,7 @@ class MessengerActivity : AppCompatActivity() {
         val layoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = layoutManager
         // Inside MessengerActivity onCreate method after getting conversationId
-        val adapter = ChatAdapter(messages, currentUserId)
+        val adapter = tn.esprit.sdktest.ChatAdapter(messages, currentUserId)
         recyclerView.adapter = adapter
 
     }
