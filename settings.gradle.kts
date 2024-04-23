@@ -16,4 +16,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "AndroidApplicationTest"
 include(":app")
- 
+include(":mylibrary")
